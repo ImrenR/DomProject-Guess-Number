@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P:regular);
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Press Start 2P";
+  background-color:#407A8A ;
+  color: white;
+}
+header{
+  position: relative;
+  height: 300px;
+  border-bottom: 8px solid white;
+}
+
+h1{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 50%;
+}
+.between{
+  position: absolute;
+  right: 15px;
+  top: 30px;
+}
+.btn{
+  margin-top: 30px;
+  margin-left: 20px;
+  font-family: 2rem;
+  padding: 20px 25px;
+  cursor: pointer;
+  border: none;
+  font-family: "Press Start 2P";
+}
+.number {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 180px;
+  background-color: #eee;
+  color: black;
+  font-size: 4rem;
+  text-align: center;
+  padding: 2rem;
+  transform: translate(-50%,50%);
+}
+main{
+height: 600px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+
+}
+.left{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.guess{
+  background-color: inherit;
+  border: 5px solid white;
+  font-family: inherit;
+  width: 300px;
+  font-size: 3rem;
+  color: white;
+  padding: 3rem;
+  text-align: center;
+}
+.right{
+  font-size: 1.5rem;
+  
+}
+.msg{
+  margin-bottom: 150px; 
+}
+.score{
+  line-height: 2;
+}
+
+  
